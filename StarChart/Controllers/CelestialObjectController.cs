@@ -26,13 +26,13 @@ namespace StarChart.Controllers
         }
 
         [HttpGet("{name}")]
-        public IActionResult GetByName(string name)
+        public void GetByName(string name)
         {
 
         }
 
         [HttpGet()]
-        public IActionResult GetAll()
+        public void GetAll()
         {
 
         }
